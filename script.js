@@ -27,6 +27,7 @@ function countdown(num) {
     console.log("Countdown: " + i);
   }
 }
+countdown(5)
 
 // Example 2: While loop (print first 5 even numbers)
 function printEvenNumbers() {
@@ -40,6 +41,7 @@ function printEvenNumbers() {
     i++;
   }
 }
+printEvenNumbers()
 
 // DOM Interaction 1: Change text when button clicked
 document.getElementById("btn-greet").addEventListener("click", function () {
